@@ -1,0 +1,30 @@
+{
+  "request": "Resolve order 88213 and tell the customer what happens next.",
+  "original_subgoal": "confirm the exact current shipping status",
+  "final_subgoal": "retrieve the order 88213 record from the order database",
+  "status": "backtrack_limit_reached",
+  "attempts": [
+    {
+      "attempt": 1,
+      "subgoal": "confirm the exact current shipping status",
+      "status": "failed",
+      "finding": "The request does not provide the current shipping status for order 88213, so it cannot be confirmed."
+    },
+    {
+      "attempt": 2,
+      "subgoal": "look up the shipping status for order 88213 in the order database",
+      "status": "failed",
+      "finding": "The request does not provide any order database or shipping information for order 88213, so the shipping status cannot be looked up."
+    },
+    {
+      "attempt": 3,
+      "subgoal": "retrieve the order 88213 record from the order database",
+      "status": "failed",
+      "finding": "The request does not provide any order database data or access, so the order record cannot be retrieved."
+    }
+  ],
+  "backtracks_used": 2,
+  "retries": 0,
+  "duration_ms": 12398.48,
+  "message": "Subgoal could not be completed within the allowed backtracking limit."
+}

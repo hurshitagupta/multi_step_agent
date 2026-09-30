@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\multi_step_agent\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\multi_step_agent
+configfile: pyproject.toml
+collecting ... collected 5 items
+
+tests/test_bounded_backtracking.py::test_subgoal_completes_without_backtracking PASSED [ 20%]
+tests/test_bounded_backtracking.py::test_failed_subgoal_backtracks_and_completes PASSED [ 40%]
+tests/test_bounded_backtracking.py::test_backtracking_limit_is_enforced PASSED [ 60%]
+tests/test_bounded_backtracking.py::test_empty_subgoal_is_rejected PASSED [ 80%]
+tests/test_bounded_backtracking.py::test_transient_failure_is_retried PASSED [100%]
+
+============================== 5 passed in 0.80s ==============================
