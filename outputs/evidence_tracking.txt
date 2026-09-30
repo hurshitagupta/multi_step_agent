@@ -1,0 +1,20 @@
+{
+  "request": "Resolve order 88213 and tell the customer what happens next.",
+  "evidence": [
+    {
+      "subgoal": "Identify the order to be resolved",
+      "finding": "The user references order number 88213",
+      "source": "user request"
+    },
+    {
+      "subgoal": "Determine the user's request for next steps",
+      "finding": "The user asks to be told what happens next after resolving the order",
+      "source": "user request"
+    }
+  ],
+  "status": "completed",
+  "evidence_count": 2,
+  "retries": 0,
+  "duration_ms": 5914.77,
+  "message": "Evidence successfully collected and validated."
+}

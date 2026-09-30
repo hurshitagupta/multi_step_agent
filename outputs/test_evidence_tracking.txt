@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\multi_step_agent\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\multi_step_agent
+configfile: pyproject.toml
+collecting ... collected 5 items
+
+tests/test_evidence_tracking.py::test_successful_evidence_tracking PASSED [ 20%]
+tests/test_evidence_tracking.py::test_empty_request_is_rejected PASSED   [ 40%]
+tests/test_evidence_tracking.py::test_invalid_evidence_is_rejected PASSED [ 60%]
+tests/test_evidence_tracking.py::test_evidence_limit_is_enforced PASSED  [ 80%]
+tests/test_evidence_tracking.py::test_transient_failure_is_retried PASSED [100%]
+
+============================== 5 passed in 0.85s ==============================
