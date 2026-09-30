@@ -1,0 +1,39 @@
+{
+  "request": "Resolve order 88213 and tell the customer what happens next.",
+  "pending": [],
+  "completed": [
+    "identify order"
+  ],
+  "failed": [
+    "check order status",
+    "check applicable constraints",
+    "prepare customer response"
+  ],
+  "findings": [
+    {
+      "subgoal": "identify order",
+      "status": "completed",
+      "finding": "Order 88213 located"
+    },
+    {
+      "subgoal": "check order status",
+      "status": "failed",
+      "finding": "Order 88213 not found in system"
+    },
+    {
+      "subgoal": "check applicable constraints",
+      "status": "failed",
+      "finding": "No constraint data available for order 88213"
+    },
+    {
+      "subgoal": "prepare customer response",
+      "status": "failed",
+      "finding": "Order details unavailable"
+    }
+  ],
+  "steps_used": 4,
+  "retries": 0,
+  "status": "completed_with_failures",
+  "duration_ms": 7858.09,
+  "message": "All allowed subgoals were processed,but at least one failed."
+}

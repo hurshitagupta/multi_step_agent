@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Hurshita Gupta\OneDrive\Desktop\multi_step_agent\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\multi_step_agent
+configfile: pyproject.toml
+collecting ... collected 5 items
+
+tests/test_progress.py::test_all_subgoals_complete PASSED                [ 20%]
+tests/test_progress.py::test_failed_subgoal_is_tracked PASSED            [ 40%]
+tests/test_progress.py::test_empty_subgoals_are_rejected PASSED          [ 60%]
+tests/test_progress.py::test_step_limit_is_enforced PASSED               [ 80%]
+tests/test_progress.py::test_transient_failure_is_retried PASSED         [100%]
+
+============================== 5 passed in 0.88s ==============================
