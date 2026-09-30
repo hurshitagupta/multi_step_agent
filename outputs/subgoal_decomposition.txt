@@ -1,0 +1,14 @@
+{
+  "request": "Resolve order 88213 and tell the customer what happens next.",
+  "subgoals": [
+    "Locate and review order 88213 in the system",
+    "Complete the required resolution actions for the order",
+    "Prepare a clear message for the customer describing the next steps",
+    "Send the prepared message to the customer"
+  ],
+  "status": "completed",
+  "subgoal_count": 4,
+  "retries": 0,
+  "duration_ms": 1486.02,
+  "message": "Request successfully decomposed by the model."
+}
